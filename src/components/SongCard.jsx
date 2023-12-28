@@ -13,6 +13,7 @@ const SongCard = ({
   data
 }) => {
   const dispatch = useDispatch();
+
   const handlePauseClick = () => {
     dispatch(playPause(false));
   };
